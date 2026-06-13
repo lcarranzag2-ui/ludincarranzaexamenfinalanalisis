@@ -3,31 +3,31 @@
 Sistema de gestion de envios y paqueteria para la empresa **Envios Rapidos GT**, desarrollado como proyecto final del curso Analisis de Sistemas I.
 
 **Alumno:** Ludin Carranza  
-**Carnet:** [0907-22-5817]  
+**Carnet:** 0907-22-5817  
 **Fecha:** 13/Jun/2026
 
 ---
 
 ## Descripcion del proyecto
 
-API REST desarrollada en **.NET 8** con **SQLite + Dapper** que permite gestionar el ciclo de vida completo de un envio: desde su registro hasta la entrega o devolucion. Incluye calculo automatico de tarifas, control de intentos fallidos de entrega, historial de estados y reporte de eficiencia.
+API REST desarrollada en **.NET 10** con **SQLite + Dapper** que permite gestionar el ciclo de vida completo de un envio: desde su registro hasta la entrega o devolucion. Incluye calculo automatico de tarifas, control de intentos fallidos de entrega, historial de estados y reporte de eficiencia.
 
 ---
 
 ## Tecnologias utilizadas
 
-- .NET 8 Web API
+- .NET 10 Web API
 - SQLite (base de datos embebida)
 - Dapper (micro ORM)
 - Swagger / OpenAPI
-- xUnit (pruebas unitarias)
+- xUnit (pruebas unitarias) - 31 pruebas
 - Render.com (despliegue)
 
 ---
 
 ## Requisitos previos
 
-- [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
+- [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
 - Git
 
 ---

@@ -1,0 +1,19 @@
+## .NET
+*.user
+*.suo
+.vs/
+bin/
+obj/
+out/
+*.db
+*.db-shm
+*.db-wal
+*.log
+
+## JetBrains
+.idea/
+*.sln.iml
+
+## OS
+.DS_Store
+Thumbs.db

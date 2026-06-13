@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: envios-rapidos-gt-api
+    runtime: dotnet
+    buildCommand: dotnet publish src/EnviosRapidosGT.API/EnviosRapidosGT.API.csproj -c Release -o out
+    startCommand: dotnet out/EnviosRapidosGT.API.dll
+    envVars:
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production
+      - key: ConnectionStrings__DefaultConnection
+        value: Data Source=/data/enviosrapidosgt.db
+    disk:
+      name: db
+      mountPath: /data
+      sizeGB: 1
